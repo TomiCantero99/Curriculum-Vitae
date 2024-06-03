@@ -1,0 +1,84 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+nav {
+
+    background-color: black;
+    padding: 1rem;
+
+
+}
+.Logo {
+    height: 80px;
+    width: 150px;
+    float: left;
+
+}
+.menu {
+    padding: 2rem;
+    margin: 2%;
+    
+    
+}
+section a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin: 7px;
+    transition: color 0.3s ;
+
+}
+section a:hover {
+    color: cornflowerblue;
+}
+.Foto{
+    width: 300px;
+    border-radius:10%;
+
+   
+}
+div .contenedor, .datos, .experiencia, .idioma, .educacion  { 
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+
+}
+
+body {
+    height: 20px;
+    margin: 10px;
+    background-color: whitesmoke; 
+    text-align: center;   
+    
+}
+
+ul { 
+    list-style-type: none;
+}
+
+.Contact {
+    text-align: center;
+    color: white;
+}
+footer {
+    padding: 20px 50px;
+    background-color: darkslategrey;
+
+}
+.icon { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+.social {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+
+}
